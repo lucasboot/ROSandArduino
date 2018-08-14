@@ -1,0 +1,8 @@
+var a = parseFloat(prompt('Digite o valor do raio menor: '));
+var b = parseFloat(prompt('Digite o valor do raio maior: '));
+var h = parseFloat(prompt('Digite o valor da altura: '));
+var g = Math.sqrt((b-a)*(b-a)+(h*h));
+var pi = 3.14159265;
+var area = pi*g*(a+b);
+var volume = ((pi*h)/3)*(a*a+a*b+b*b);
+alert('O valor do volume é '+ volume+ '\nA área superficial vale: '+area);
